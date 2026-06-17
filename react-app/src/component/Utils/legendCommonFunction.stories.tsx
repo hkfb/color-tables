@@ -2,8 +2,8 @@ import React from "react";
 
 import { ContinuousLegend } from "../../component/Legend/ContinuousLegend";
 import {
-  createContinuousLibraryColorScale,
-  createDefaultContinuousColorScale,
+    createContinuousLibraryColorScale,
+    createDefaultContinuousColorScale,
 } from "./legendCommonFunction";
 
 export default {
@@ -22,7 +22,7 @@ function colorMap(value: number) {
 }
 
 const ContinuousLegendTemplate = (
-  args: JSX.IntrinsicAttributes & {
+  args: React.JSX.IntrinsicAttributes & {
     min?: number;
     max?: number;
     dataObjectName?: string;
